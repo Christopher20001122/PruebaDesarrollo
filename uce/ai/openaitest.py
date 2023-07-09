@@ -10,7 +10,7 @@ class Document(BaseModel):
 
 def inference(prompt: str) -> list:
 
-    print('[PROCESANDO]'.center(40, '-'))
+    print('[PROCESAafsfdfNDO]'.center(40, '-'))
     completion = openai.ChatCompletion.create(
         model = "gpt-3.5-turbo",
         messages= [
